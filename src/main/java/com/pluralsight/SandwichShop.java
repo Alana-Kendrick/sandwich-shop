@@ -24,7 +24,7 @@ public class SandwichShop {
         if (age <= 17) {
             cost = basePrice * 0.9;
         } else if (age >= 65) {
-            cost = basePrice * 0.9;
+            cost = basePrice * 0.8;
         } else {
             cost = basePrice;
         }
