@@ -9,6 +9,9 @@ public class SandwichShop {
         System.out.print("Do you want a regular or large sandwich? ");
         String size = myScanner.nextLine();
 
+        System.out.println("Do you want that loaded? ");
+        boolean isLoaded = myScanner.hasNext();
+
         System.out.print("What is your age? ");
         int age = myScanner.nextInt();
 
